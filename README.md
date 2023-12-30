@@ -1,3 +1,17 @@
+# MLVFS for Dokany v2.1.0.1000
+The zip folder contains two binaries, mlvfs_avx2.exe for recent CPU and mlvfs.exe for compatibility.
+
+Edit mlvfs.bat by replacing E: by the letter of your SD card in the argument --mlv-dir=E:\DCIM\100CANON\
+or use it directly in a terminal, exemple:
+```
+mlvfs.exe -f X: --mlv-dir=E:\DCIM\100CANON\ --resolve-naming
+```
+
+
+To compile with Visual Studio 2022, install Dokany v2.1.0.1000 
+
+https://github.com/dokan-dev/dokany/releases/tag/v2.1.0.1000
+___
 # MLV Filesystem (MLVFS)
 MLVFS is a [Filesystem in UserSpace (FUSE)](http://en.wikipedia.org/wiki/Filesystem_in_Userspace) approach to interacting with Magic Lantern's MLV video files.  For discussion, see the [forum thread](http://www.magiclantern.fm/forum/index.php?topic=13152.0).
 
