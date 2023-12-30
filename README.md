@@ -23,6 +23,8 @@ FUSE options:
 -d   -o debug          enable debug output (implies -f) 
 -f                     foreground operation
 -s                     disable multi-threaded operation
+```
+```
 MLVFS options:
 --port=%s              webgui port (default is 8000)
 --resolve-naming       use DaVinci Resolve / BMD file naming convention (.MLV folders will show up as clips in Resolve)
