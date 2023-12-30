@@ -1,5 +1,4 @@
 # MLVFS for Dokany v2.1.0.1000
-Head to release:
 https://github.com/cmhamiche/MLVFS/releases/tag/Release
 
 The zip folder contains two binaries, mlvfs_avx2.exe for recent CPUs and mlvfs.exe for compatibility.
