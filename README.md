@@ -24,8 +24,8 @@ FUSE options:
 -f                     foreground operation
 -s                     disable multi-threaded operation
 ```
-```
 MLVFS options:
+```
 --port=%s              webgui port (default is 8000)
 --resolve-naming       use DaVinci Resolve / BMD file naming convention (.MLV folders will show up as clips in Resolve)
 --cs2x2                2x2 chroma smoothing (to remove focus pixels on certain camera models and other artifacts)
