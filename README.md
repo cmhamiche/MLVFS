@@ -10,7 +10,7 @@ mlvfs.exe -f X: --mlv-dir=E:\DCIM\100CANON\ --resolve-naming
 ```
 
 
-To compile with Visual Studio 2022, install Dokany v2.1.0.1000 
+To compile with Visual Studio 2022, install Dokany v2.1.0.1000 and open mlvfs.vcxproj in the dokany folder.
 
 https://github.com/dokan-dev/dokany/releases/tag/v2.1.0.1000
 ___
