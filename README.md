@@ -3,6 +3,9 @@ https://github.com/cmhamiche/MLVFS/releases/tag/Release
 
 The zip folder contains two binaries, mlvfs_avx2.exe for recent CPUs and mlvfs.exe for compatibility.
 
+Install Dokany v2.1.0.1000
+https://github.com/dokan-dev/dokany/releases/tag/v2.1.0.1000
+
 Edit mlvfs.bat by replacing E: by the letter of your SD card in the argument --mlv-dir=E:\DCIM\100CANON\
 or use it directly in a terminal, exemple:
 ```
@@ -10,7 +13,7 @@ mlvfs.exe -f X: --mlv-dir=E:\DCIM\100CANON\ --resolve-naming
 ```
 
 
-To compile with Visual Studio 2022, install Dokany v2.1.0.1000 and open mlvfs.vcxproj in the dokany folder.
+To compile with Visual Studio, open mlvfs.vcxproj in the dokany folder.
 
 https://github.com/dokan-dev/dokany/releases/tag/v2.1.0.1000
 ___
