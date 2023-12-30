@@ -1,5 +1,5 @@
 # MLVFS for Dokany v2.1.0.1000
-The zip folder contains two binaries, mlvfs_avx2.exe for recent CPU and mlvfs.exe for compatibility.
+The zip folder contains two binaries, mlvfs_avx2.exe for recent CPUs and mlvfs.exe for compatibility.
 
 Edit mlvfs.bat by replacing E: by the letter of your SD card in the argument --mlv-dir=E:\DCIM\100CANON\
 or use it directly in a terminal, exemple:
