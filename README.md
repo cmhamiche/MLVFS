@@ -20,10 +20,10 @@ https://github.com/dokan-dev/dokany/releases/tag/v2.1.0.1000
 Missing pixelmaps can be found at https://github.com/ilia3101/MLV-App/tree/master/pixel_maps
 ## Source from https://bitbucket.org/dmilligan/mlvfs
 
-# MLV Filesystem (MLVFS)
+## MLV Filesystem (MLVFS)
 MLVFS is a [Filesystem in UserSpace (FUSE)](http://en.wikipedia.org/wiki/Filesystem_in_Userspace) approach to interacting with Magic Lantern's MLV video files.  For discussion, see the [forum thread](http://www.magiclantern.fm/forum/index.php?topic=13152.0).
 
-## Linux
+### Linux
 Install FUSE in the manner appropriate for your distribution.
 You can compile `mlvfs` from the command line using `make`.
 
@@ -37,15 +37,15 @@ NOTE: The webgui does not work in background mode, which is the FUSE default. So
 
 To get to the webgui go to http://localhost:8000/
 
-### Command Line Options
+#### Command Line Options
 
-#### FUSE options:
+##### FUSE options:
 
     -d   -o debug          enable debug output (implies -f) 
     -f                     foreground operation
     -s                     disable multi-threaded operation
 
-#### MLVFS options:
+##### MLVFS options:
 
     --port=%s              webgui port (default is 8000)
     --resolve-naming       use DaVinci Resolve / BMD file naming convention (.MLV folders will show up as clips in Resolve)
@@ -66,7 +66,7 @@ To get to the webgui go to http://localhost:8000/
 
 Use the webgui to modify any of these options while mlvfs is running.
 
-## OS X
+### OS X
 Install [OSXFUSE](http://osxfuse.github.io/).
 Double click the MLVFS.workflow and select “Install” when prompted.
 
@@ -84,7 +84,7 @@ You can compile from source using either the Xcode application or using the comm
 
 Unmounting the filesystem is done through the typical methods.
 
-## Windows
+### Windows
 There is no FUSE solution for Windows, but an alternative approach that
 functions in much the same way is
 [Pismo File Mount Audit Package](http://www.pismotechnic.com/pfm/ap/).
