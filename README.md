@@ -15,9 +15,8 @@ mlvfs.exe -f X: --mlv-dir=E:\DCIM\100CANON\ --resolve-naming
 
 To compile with Visual Studio, open mlvfs.vcxproj in the dokany folder.
 
-https://github.com/dokan-dev/dokany/releases/tag/v2.1.0.1000
-
 Missing pixelmaps can be found at https://github.com/ilia3101/MLV-App/tree/master/pixel_maps
+
 #### The source code is cloned from https://bitbucket.org/dmilligan/mlvfs
 
 ## MLV Filesystem (MLVFS)
