@@ -19,7 +19,6 @@ https://github.com/dokan-dev/dokany/releases/tag/v2.1.0.1000
 
 Missing pixelmaps can be found at https://github.com/ilia3101/MLV-App/tree/master/pixel_maps
 ## Source from https://bitbucket.org/dmilligan/mlvfs
-____
 
 # MLV Filesystem (MLVFS)
 MLVFS is a [Filesystem in UserSpace (FUSE)](http://en.wikipedia.org/wiki/Filesystem_in_Userspace) approach to interacting with Magic Lantern's MLV video files.  For discussion, see the [forum thread](http://www.magiclantern.fm/forum/index.php?topic=13152.0).
