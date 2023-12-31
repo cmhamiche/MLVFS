@@ -1,7 +1,7 @@
 # MLVFS for Dokany v2.1.0.1000
 https://github.com/cmhamiche/MLVFS/releases/tag/Release
 
-The zip folder contains two binaries, mlvfs_avx2.exe for recent CPUs and mlvfs.exe for compatibility.
+The zip folder contains two x64 binaries, mlvfs_avx2.exe for recent CPUs and mlvfs.exe for compatibility.
 
 Install Dokany v2.1.0.1000
 https://github.com/dokan-dev/dokany/releases/tag/v2.1.0.1000
