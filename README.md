@@ -13,11 +13,12 @@ mlvfs.exe -f X: --mlv-dir=E:\DCIM\100CANON\ --resolve-naming
 ```
 
 
-To compile with Visual Studio, open mlvfs.vcxproj in the dokany folder.
 
 Missing pixelmaps can be found at https://github.com/ilia3101/MLV-App/tree/master/pixel_maps and https://bitbucket.org/bilal_fakhouri/crop-mood-builds/downloads/
 
 #### The source code is cloned from https://bitbucket.org/dmilligan/mlvfs
+
+To compile with Visual Studio, open mlvfs.vcxproj in the dokany folder.
 
 ## MLV Filesystem (MLVFS)
 MLVFS is a [Filesystem in UserSpace (FUSE)](http://en.wikipedia.org/wiki/Filesystem_in_Userspace) approach to interacting with Magic Lantern's MLV video files.  For discussion, see the [forum thread](http://www.magiclantern.fm/forum/index.php?topic=13152.0).
