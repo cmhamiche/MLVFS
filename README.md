@@ -15,7 +15,7 @@ mlvfs.exe -f X: --mlv-dir=E:\DCIM\100CANON\ --resolve-naming
 
 To compile with Visual Studio, open mlvfs.vcxproj in the dokany folder.
 
-Missing pixelmaps can be found at https://github.com/ilia3101/MLV-App/tree/master/pixel_maps
+Missing pixelmaps can be found at https://github.com/ilia3101/MLV-App/tree/master/pixel_maps and https://bitbucket.org/bilal_fakhouri/crop-mood-builds/downloads/
 
 #### The source code is cloned from https://bitbucket.org/dmilligan/mlvfs
 
